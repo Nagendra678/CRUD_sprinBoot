@@ -24,6 +24,8 @@ public class EmployeeController {
         System.out.println("1000");
         System.out.println("1000");
         System.out.println("1000");
+        System.out.println("1000");
+        System.out.println("1000");
         employeeService.addEmployee(employee);
         return "data added successfully";
     }

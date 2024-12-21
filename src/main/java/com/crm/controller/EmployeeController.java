@@ -21,6 +21,9 @@ public class EmployeeController {
     public String addEmployee(
             @RequestBody Employee employee
     ) {
+        System.out.println("1000");
+        System.out.println("1000");
+        System.out.println("1000");
         employeeService.addEmployee(employee);
         return "data added successfully";
     }
